@@ -1,0 +1,19 @@
+Organizing Css
+
+add button to jumbotron ?
+
+oval image
+
+fade in effects
+
+image overlay with text --> about us, membership, contact
+
+
+
+-------------
+
+Our Promise section - Organic non gmo promise
+
+Overlay on parrallax
+
+image ontop of an image with animated button

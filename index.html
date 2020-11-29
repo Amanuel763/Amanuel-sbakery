@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Amanuel's Website</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><b>Strohhut Bakery and Coffee Spot</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="abbout.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="membership.html">Membership</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+
+			</ul>
+			<span class="navbar-text ml-auto">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
+                </a>
+            </span>
+			
+		</div>
+	</div>
+</nav>
+
+<!--Login-->
+
+ <div id="loginModal" class="modal animate__animated animate__rotateIn" role="dialog">
+     <div class="modal-dialog" role="document">
+         <div class="modal-content">
+             <div class="modal-header">
+                 <h3 class="modal-title">Login</h3>
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+             </div>
+             <div class="modal-body">
+                 <div class="container-fluid">
+                     <form>
+                         <div class="form-row">
+                             <div class="form-group col-12">
+                                 <label class="sr-only" for="loginEmail">Email Adress</label>
+                                 <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                             </div>
+                             <div class="form-group col-12">
+                                 <label class="sr-only" for="loginPassword">Password</label>
+                                 <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                             </div>
+                             <div class="col">
+                                 <div class="form-check ">
+                                     <input class="form-check-input" type="Checkbox">
+                                     <label class="form-check-label">Remember Me</label>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="form-row">
+                             <button type="button" class="btn btn-primary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                             <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+
+ <div class="modal animate__animated animate__rotateIn" id="myModal" tabindex="1" role="dialog" aria-labelledby="myModallabel" aria-hidden="true">
+ 	<div class="modal-dialog" role="dialog">
+ 		<div class="modal-content">
+ 			<div class="modal-body">
+ 				<button type="button" class="close" data-dismiss="modal">&times;</button>
+ 				<div class="row">
+ 					<div class="col-md-6" p-0>
+ 						<img src="img/bread6.jpg">
+ 					</div> 
+ 					<div class="col-md-6" p-0>
+ 						<div class="formWrap">
+ 							<h1>Sign Up for new Updates</h1>
+ 							<p><small>Get more ideas and inspiration</small></p>
+ 							<hr>
+ 							<p><a href="#"><i class="fas fa-facebook"></i></a>
+ 							   <a href="#"><i class="fas fa-twitter"></i></a>
+ 							   <a href="#"><i class="fas fa-instagram"></i></a>
+ 							</p>
+ 						</div>
+ 						
+ 					</div>					
+ 				</div>
+
+ 				
+ 			</div>
+ 			
+ 		</div>
+ 		
+ 	</div>
+ 	
+ </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+</button>
+
+
+
+
+<!--- Image Slider -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="img/4.jpg" alt="First slide">        
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/pastry4.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="img/7.jpg" alt="Third slide">
+        </div>
+    </div>
+</div>              			
+	
+	
+
+
+<!---Menu Cards -->
+
+<div class="container-fluid padding" data-aos="fade-up">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Menu</h1>
+		</div>
+		<hr>
+	</div>
+</div>
+
+
+
+
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/dessert3.jpg">
+				<div class="card-body">
+					<h4 class="card-title" id="cake">Cakes and Dessert</h4>
+					<p class="card-text" id="cards">John is a internet entrepreneus who has almost 20 years of experience.</p>
+					<a href="menu1.html" class="btn btn-primary">Read More</a>
+					
+				</div>
+				
+			</div>
+		</div>
+	    <div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/dessert3.jpg">
+				<div class="card-body">
+					<h4 class="card-title" id="bread">Bread and Pastries</h4>
+					<p class="card-text" id="cards">John is a internet entrepreneus who has almost 20 years of experience.</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/coffeee.jpg">
+				<div class="card-body">
+					<h4 class="card-title" id="drinks">Hot and Cold Drinks</h4>
+					<p class="card-text" id="cards">John is a internet entrepreneus who has almost 20 years of experience.</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+</div>
+
+
+<!-- Parallax-->
+
+
+<div class="parallax1"></div>
+
+
+
+
+<!-- Membership welcome section -->
+
+<div class="container-fluid padding" data-aos="fade-up">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Premium Membership</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">We offer Three types of Membership to our communities.</p>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="container-fluid">
+	<div class="row padding">
+		<div class="col-lg-6" data-aos="fade-right">
+			<h2>We are offering a few Memberships</h2>
+			<p class="text">The columns will automatically stack on top of each othr when the screen is less thanullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<br>
+			<a href="membership.html" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-4 mx-auto" data-aos="fade-left">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators carousel-indicators-numbers">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/4.jpg" alt="First slide">        
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/pastry4.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/7.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+              </div>              			
+		</div>
+	</div>
+	
+</div>
+
+
+<!---Parallax Image-->
+
+<div class="parallax">
+		
+</div>
+
+
+<!--Commitment-->
+
+<div class="container-fluid padding" data-aos="fade-up">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Our Commitment to use Local Organic Products</h1>
+		</div>
+		<hr>
+		<div class="col-12" data-aos="fade-up">
+			<p class="lead">We are dedicated to support local farms that have provided Tennessee with their Produce. We will continue working with our farmers to keep our local communities healthy and happy while visiting our Cafe.</p>
+		</div>
+	</div>
+</div>	
+	
+
+<!--- Footer -->
+
+
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <hr class="light">
+                <h4>Social Media</h4>
+                <hr class="light">
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+            	<hr class="light">
+            	<h4>Location</h4>
+            	<hr class="light">
+            	<p>123 4th avenue South, Nashville Tennessee</p>
+            	
+            </div>
+            <div class="col-md-4 ml-auto">
+                <hr class="light">
+                <h5 id="title">Subscribe To Our Newsletter</h5>
+                <hr class="light">
+                <div class="subscribe-form">
+                    <form action="#">
+                        <input type="text" placeholder="Email Address">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>              
+            </div>
+            <div class="col-12">
+                <hr class="light">
+                <h5 id="footer">&copy; By website</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+            AOS.init({
+                offset:400,
+                duration:1000
+            });
+    </script>
+
+    <script>
+    	$(window).on('load', function(){
+	        setTimeout(function(){
+		        $('#myModal').modal('show')
+	        }, 3000);
+        });
+
+    </script>
+
+
+
+</body>
+</html>
+
