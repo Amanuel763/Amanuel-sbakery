@@ -7,8 +7,12 @@ html, body {
   font-family: 'Poppins', sanserif;
   color: #222;
   scroll-behavior: smooth;
-  overflow-x: hidden;
   }
+
+body{
+  overflow-x: hidden;
+}
+
 
 
 .navbar {
